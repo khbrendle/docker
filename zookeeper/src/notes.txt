@@ -1,0 +1,2 @@
+zkServer.sh using arguments to ps not available in alpine
+  replaced `ps -p "${pid}"` with `ps -o pid | grep -E "^\s+${pid}"` at line 174
